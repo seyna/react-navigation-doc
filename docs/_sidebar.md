@@ -9,3 +9,5 @@
   * [標頭按鈕](/fundamentals/header_buttons.md)
   * [開啟全螢幕的 modal](/fundamentals/opening_a_full_screen_modal.md)
   * [下一步](/fundamentals/next_steps.md)
+* 我該如何做？
+  *  [分頁導航](/how_do_i_do/tab_navigation.md)
