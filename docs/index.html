@@ -7,6 +7,73 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    body {
+      font-family: 'Noto Sans Japanese', 'YuGothic', 'Yu Gothic', '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo';
+      color: #000;
+    }
+  
+    article {
+      font-family: 'Noto Sans Japanese', 'YuGothic', 'Yu Gothic', '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo';
+    }
+  
+    .sidebar {
+      background: rgb(28, 27, 27);
+    }
+  
+    .sidebar li {
+      margin: 6px 0 6px 30px;
+    }
+  
+    .sidebar ul,
+    .sidebar ul li {
+      letter-spacing: 1.5px;
+    }
+  
+    .sidebar-nav ul li,
+    .sidebar-nav ul li a {
+      color: #fff;
+    }
+  
+    .sidebar-nav ul li .active a {
+      color: #42b983;
+    }
+  
+    .sidebar li>p {
+      font-weight: normal;
+    }
+  
+    .sidebar-toggle {
+      background-color: transparent;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .sidebar-toggle {
+        padding: 30px 30px 10px 10px
+      }
+      body.close .sidebar-toggle {
+        background-color: transparent;
+      }
+      .sidebar-toggle .sidebar-toggle-button:hover {
+        opacity: 1;
+      }
+    }
+  
+    .markdown-section ul li,
+    .reference,
+    .markdown-section ul li p {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18732293-19"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-18732293-19');
+  </script>
 </head>
 <body>
   <div id="app"></div>
