@@ -1,4 +1,4 @@
-# React Navigation 中文翻譯
+# React Navigation 中文手冊
 
 <div style="text-align:right;">文件最近更新時間； 2018/05/04</div>
 
