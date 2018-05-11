@@ -13,3 +13,4 @@
   *  [分頁導航](/how_do_i_do/tab_navigation.md)
   *  [抽屜導航](/how_do_i_do/drawer_navigation.md)
   *  [驗證流程](/how_do_i_do/authentication_flows.md)
+  *  [iPhone X 支援](/how_do_i_do/iphone_x_support.md)

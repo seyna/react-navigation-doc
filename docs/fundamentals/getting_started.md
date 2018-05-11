@@ -18,4 +18,4 @@ yarn add react-navigation
 # npm install --save react-navigation
 ```
 
-看起來很棒！接著我們到["嗨，React Navigation"](/fundamentals/hello_react_navigation)開始寫些程式碼吧。
+看起來很棒！接著我們到 [「嗨，React Navigation｣](/fundamentals/hello_react_navigation) 開始寫些程式碼吧。
