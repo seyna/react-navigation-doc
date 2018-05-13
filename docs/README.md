@@ -4,13 +4,13 @@
 
 ?> 文件尚在翻譯當中，預計會在 2018 年 6 月翻譯完畢。不過就以目前的內容應以足以應付一般需求。祝好運！
 
-嗨，我是朱文藝，在 2018 年的 4 月開始認真學習 app 開發技術。為了督促自己的學習狀況，開啟了這個翻譯計畫。
+嗨，我是朱文藝，目前是一名住在台北的獨立軟體開發人員，也是這份手冊的譯者，若有需要，你可以在 [@seynachu](https://www.facebook.com/seynachu/) 找到我
 
-React native 裡的路由程式庫中，最熱門的便是 react-navigation、react-router 與 react-native-router-flux 了。都是非常好的選擇，都擁有相當大的群眾基礎。
+React native 裡的路由程式庫中，最熱門的便是 react-navigation、react-router 與 react-native-router-flux 了。都是非常好的選擇，擁有相當大的群眾基礎
 
-基於 React-Navigation 支援 Expo<sup>1</sup>，以及和 Redux 整合良好<sup>2</sup>、文件完整清楚等原因，筆者選擇使用它。
+基於 React-Navigation 支援 Expo<sup>1</sup>，以及和 Redux 整合良好<sup>2</sup>、文件完整清楚等原因，筆者選擇使用它
 
-React Navigation 支援的功能很多，然而寫作的方式卻很簡明，是個非常良好的路由工具。
+React Navigation 支援的功能很多，然而寫作的方式卻很簡明，是個非常良好的路由工具
 
 祝學習使用愉快！
 
