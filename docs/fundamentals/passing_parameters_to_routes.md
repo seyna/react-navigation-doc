@@ -31,7 +31,7 @@ class HomeScreen extends React.Component {
 class DetailsScreen extends React.Component {
   render() {
     /* 2. 在 navigation state 裡讀出參數*/
-    const { params } = this.props.navigation.state;
+    const { params } = this.props.navigation.state.params;
     const itemId = params ? params.itemId : null;
     const otherParam = params ? params.otherParam : null;
 
