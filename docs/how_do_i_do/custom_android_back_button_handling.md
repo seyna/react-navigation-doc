@@ -10,25 +10,16 @@
 
 我們使用了 react-native 原生的 `BackHandler` ，[訂閱 navigation 生命週期的更新]()，以及添加我們客製化的 `hardwareBackPress` 監聽程序。
 
-```javascript
-import React from "react";
-import { BackHandler } from "react-native";
+解釋底下的程式碼：將 `onBackButtonPressAndroid` 的回傳設為 `true` 時代表我們正在處理這個事件，react-navigation 的監聽程序就不會被呼叫，畫面便不會跳開。而當回傳 `false` 時會使讓事件傳遞，因此讓 react-navigation 的監聽程序跳開畫面。
 
+```javascript
 class ScreenWithCustomBackBehavior extends React.Component {
-  _didFocusSubscription;
-  _willBlurSubscription;
-  
-  constructor(props) {
-    super(props);
-    this._didFocusSubscription = props.navigation.addListener('didFocus', payload =>
-      BackHandler.addEventListener('hardwareBackPress', this.onBackButtonPressAndroid)
-    );
+  componentDidMount() {
+    BackHandler.addEventListener('hardwareBackPress', this.onBackButtonPressAndroid);
   }
 
-  componentDidMount() {
-    this._willBlurSubscription = this.props.navigation.addListener('willBlur', payload =>
-      BackHandler.removeEventListener('hardwareBackPress', this.onBackButtonPressAndroid)
-    );
+  componentWillUnmount() {
+    BackHandler.removeEventListener('hardwareBackPress', this.onBackButtonPressAndroid);
   }
 
   onBackButtonPressAndroid = () => {
@@ -39,15 +30,6 @@ class ScreenWithCustomBackBehavior extends React.Component {
       return false;
     }
   };
-
-  componentWillUnmount() {
-    this._didFocusSubscription && this._didFocusSubscription.remove();
-    this._willBlurSubscription && this._willBlurSubscription.remove();
-  }
-
-  render() {
-    // ...
-  }
 }
 ```
 
