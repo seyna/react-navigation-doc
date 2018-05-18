@@ -1,6 +1,6 @@
 # React Navigation 中文手冊
 
-<div style="text-align:right;">文件最近更新時間； 2018/05/12</div>
+<div style="text-align:right;">文件最近更新時間； 2018/05/18</div>
 
 ?> 文件尚在翻譯當中，預計會在 2018 年 6 月翻譯完畢。不過就以目前的內容應以足以應付一般需求。祝好運！
 
